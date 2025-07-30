@@ -30,7 +30,6 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests",
     "test:ci": "yarn test --ci --silent --coverage --json --watchAll=false --testLocationInResults --outputFile=report.json",
     "serve": "npx live-server --port=3030 --no-browser --ignore='.*,src,tests'",
-    "prepare": "yarn build",
     "prepublishOnly": "yarn build"
   },
   "author": "katspaugh",
@@ -68,5 +67,8 @@
     "transform": {},
     "testEnvironment": "jest-environment-jsdom"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "yarn": "^1.22.22"
+  }
 }
