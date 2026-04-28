@@ -13,7 +13,7 @@
  * />
  */
 import { type ReactElement, type RefObject } from 'react';
-import WaveSurfer, { type WaveSurferEvents, type WaveSurferOptions } from 'wavesurfer.js';
+import WaveSurfer, { type WaveSurferEvents, type WaveSurferOptions } from 'wavesurfer-custom';
 type WavesurferEventHandler<T extends unknown[]> = (wavesurfer: WaveSurfer, ...args: T) => void;
 type OnWavesurferEvents = {
     [K in keyof WaveSurferEvents as `on${Capitalize<K>}`]?: WavesurferEventHandler<WaveSurferEvents[K]>;

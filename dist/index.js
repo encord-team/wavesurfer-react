@@ -1,4 +1,4 @@
-import{jsx as t}from"react/jsx-runtime";import{memo as e,useRef as n,useState as r,useMemo as o,useEffect as s}from"react";import c from"wavesurfer.js";
+import{jsx as t}from"react/jsx-runtime";import{memo as e,useRef as n,useState as r,useMemo as o,useEffect as s}from"react";import c from"wavesurfer-custom";
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
